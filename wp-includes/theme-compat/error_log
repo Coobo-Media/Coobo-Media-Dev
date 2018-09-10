@@ -1,0 +1,1 @@
+[12-Feb-2018 06:58:57 UTC] PHP Fatal error:  Call to undefined function post_class() in /home/coobom/public_html/wp-includes/theme-compat/embed-content.php on line 13

@@ -1,0 +1,279 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.42
+* STEP-1 START @ 03:39:18
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	7.2.8 | SAPI: apache2handler
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.8 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0
+DOC ROOT:	/Users/blakeingenthron/Sites/coobo-dev
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/coobo-dev/installer.php
+SAFE MODE :	0
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	20180905_coobomedia_fec2114e099a41227876180906152247_archive.zip
+SIZE:	3.19MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2
+    [filename] => /Users/blakeingenthron/Sites/coobo-dev/20180905_coobomedia_fec2114e099a41227876180906152247_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2018-09-06 15:39:18
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.180906153918.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 03:39:19 - RUNTIME: 0.9973 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 03:41:12
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.23 -- Build Server: 10.1.35
+FILE SIZE:	database.sql (33.69MB) - installer-data.sql (33.69MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Users/blakeingenthron/Sites/coobo-dev/installer-data.sql]
+COLLATE RESET:	On
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	0
+QUERIES RAN:	658
+
+wp_cf_form_entries: (0)
+wp_cf_form_entry_meta: (0)
+wp_cf_form_entry_values: (0)
+wp_cf_forms: (3)
+wp_cf_pro_messages: (0)
+wp_cf_tracking: (0)
+wp_cf_tracking_meta: (0)
+wp_commentmeta: (0)
+wp_comments: (0)
+wp_duplicator_packages: (4)
+wp_gf_draft_submissions: (2)
+wp_gf_entry: (37)
+wp_gf_entry_meta: (403)
+wp_gf_entry_notes: (0)
+wp_gf_form: (7)
+wp_gf_form_meta: (7)
+wp_gf_form_view: (36)
+wp_iwp_backup_status: (0)
+wp_iwp_file_list: (0)
+wp_links: (0)
+wp_options: (533)
+wp_postmeta: (12884)
+wp_posts: (2313)
+wp_redirection_404: (583)
+wp_redirection_groups: (2)
+wp_redirection_items: (5)
+wp_redirection_logs: (8)
+wp_revslider_backup_slides: (123)
+wp_revslider_css: (160)
+wp_revslider_layer_animations: (5)
+wp_revslider_navigations: (2)
+wp_revslider_sliders: (38)
+wp_revslider_slides: (105)
+wp_revslider_static_slides: (26)
+wp_smush_dir_images: (0)
+wp_term_relationships: (336)
+wp_term_taxonomy: (36)
+wp_termmeta: (0)
+wp_terms: (36)
+wp_usermeta: (70)
+wp_users: (2)
+wp_wfBadLeechers: (0)
+wp_wfBlockedCommentLog: (0)
+wp_wfBlockedIPLog: (323)
+wp_wfBlocks: (1)
+wp_wfBlocks7: (10)
+wp_wfBlocksAdv: (0)
+wp_wfConfig: (254)
+wp_wfCrawlers: (49)
+wp_wfFileChanges: (0)
+wp_wfFileMods: (10065)
+wp_wfHits: (3762)
+wp_wfHoover: (0)
+wp_wfIssues: (14)
+wp_wfKnownFileList: (10065)
+wp_wfLeechers: (1080)
+wp_wfLiveTrafficHuman: (9)
+wp_wfLockedOut: (0)
+wp_wfLocs: (0)
+wp_wfLogins: (167)
+wp_wfNet404s: (0)
+wp_wfNotifications: (77)
+wp_wfPendingIssues: (0)
+wp_wfReverseCache: (20)
+wp_wfSNIPCache: (0)
+wp_wfScanners: (101)
+wp_wfStatus: (952)
+wp_wfThrottleLog: (0)
+wp_wfVulnScanners: (0)
+wp_yoast_seo_links: (138)
+wp_yoast_seo_meta: (174)
+
+Removed '59' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 17.6752 sec.
+STEP-2 COMPLETE @ 03:41:30 - RUNTIME: 18.0577 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 03:52:51
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_cf_form_entries^ (0)
+wp_cf_form_entry_meta^ (0)
+wp_cf_form_entry_values^ (0)
+wp_cf_forms~ (3)
+wp_cf_pro_messages^ (0)
+wp_cf_tracking^ (0)
+wp_cf_tracking_meta^ (0)
+wp_commentmeta^ (0)
+wp_comments^ (0)
+wp_duplicator_packages^ (0)
+wp_gf_draft_submissions~ (2)
+wp_gf_entry~ (37)
+wp_gf_entry_meta~ (403)
+wp_gf_entry_notes^ (0)
+wp_gf_form~ (7)
+wp_gf_form_meta~ (7)
+wp_gf_form_view~ (36)
+wp_iwp_backup_status^ (0)
+wp_iwp_file_list^ (0)
+wp_links^ (0)
+wp_options~ (475)
+wp_postmeta~ (12884)
+wp_posts~ (2313)
+wp_redirection_404~ (583)
+wp_redirection_groups~ (2)
+wp_redirection_items~ (5)
+wp_redirection_logs~ (8)
+wp_revslider_backup_slides~ (123)
+wp_revslider_css~ (160)
+wp_revslider_layer_animations~ (5)
+wp_revslider_navigations~ (2)
+wp_revslider_sliders~ (38)
+wp_revslider_slides~ (105)
+wp_revslider_static_slides~ (26)
+wp_smush_dir_images^ (0)
+wp_term_relationships~ (336)
+wp_term_taxonomy~ (36)
+wp_termmeta^ (0)
+wp_terms~ (36)
+wp_usermeta~ (70)
+wp_users~ (2)
+wp_wfBadLeechers^ (0)
+wp_wfBlockedCommentLog^ (0)
+wp_wfBlockedIPLog~ (323)
+wp_wfBlocks~ (1)
+wp_wfBlocks7~ (10)
+wp_wfBlocksAdv^ (0)
+wp_wfConfig~ (254)
+wp_wfCrawlers~ (49)
+wp_wfFileChanges^ (0)
+wp_wfFileMods~ (10065)
+wp_wfHits~ (3762)
+wp_wfHoover^ (0)
+wp_wfIssues~ (14)
+wp_wfKnownFileList~ (10065)
+wp_wfLeechers~ (1080)
+wp_wfLiveTrafficHuman~ (9)
+wp_wfLockedOut^ (0)
+wp_wfLocs^ (0)
+wp_wfLogins~ (167)
+wp_wfNet404s^ (0)
+wp_wfNotifications~ (77)
+wp_wfPendingIssues^ (0)
+wp_wfReverseCache~ (20)
+wp_wfSNIPCache^ (0)
+wp_wfScanners~ (101)
+wp_wfStatus~ (952)
+wp_wfThrottleLog^ (0)
+wp_wfVulnScanners^ (0)
+wp_yoast_seo_links~ (138)
+wp_yoast_seo_meta~ (174)
+--------------------------------------
+Search1:	'/home/coobom/public_html' 
+Change1:	'/Users/blakeingenthron/Sites/coobo-dev' 
+Search2:	'\/home\/coobom\/public_html' 
+Change2:	'\/Users\/blakeingenthron\/Sites\/coobo-dev' 
+Search3:	'%2Fhome%2Fcoobom%2Fpublic_html%2F' 
+Change3:	'%2FUsers%2Fblakeingenthron%2FSites%2Fcoobo-dev%2F' 
+Search4:	'\home\coobom\public_html' 
+Change4:	'/Users/blakeingenthron/Sites/coobo-dev' 
+Search5:	'//coobomedia.com' 
+Change5:	'//localhost/coobo-dev' 
+Search6:	'\/\/coobomedia.com' 
+Change6:	'\/\/localhost\/coobo-dev' 
+Search7:	'%2F%2Fcoobomedia.com' 
+Change7:	'%2F%2Flocalhost%2Fcoobo-dev' 
+Search8:	'https://localhost/coobo-dev' 
+Change8:	'http://localhost/coobo-dev' 
+Search9:	'https:\/\/localhost\/coobo-dev' 
+Change9:	'http:\/\/localhost\/coobo-dev' 
+Search10:	'https%3A%2F%2Flocalhost%2Fcoobo-dev' 
+Change10:	'http%3A%2F%2Flocalhost%2Fcoobo-dev' 
+SCANNED:	Tables:71 	|	 Rows:44965 	|	 Cells:299904 
+UPDATED:	Tables:11 	|	 Rows:6162 	|	 Cells:9410 
+ERRORS:		0 
+RUNTIME:	8.761100 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 03:53:00 - RUNTIME: 8.8502 sec.
+
+

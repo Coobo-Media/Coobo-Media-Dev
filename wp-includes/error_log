@@ -1,0 +1,4 @@
+[22-Oct-2017 05:36:23 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/coobom/public_html/wp-includes/registration-functions.php on line 7
+[27-Nov-2017 11:07:13 UTC] PHP Fatal error:  Class 'Walker' not found in /home/coobom/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[18-Dec-2017 11:55:25 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/coobom/public_html/wp-includes/session.php on line 8
+[15-Mar-2018 00:13:11 UTC] PHP Fatal error:  Class 'Walker' not found in /home/coobom/public_html/wp-includes/class-walker-nav-menu.php on line 17

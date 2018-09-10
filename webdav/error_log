@@ -1,0 +1,226 @@
+[11-Feb-2015 22:39:12 UTC] PHP Fatal error:  Class 'DAV\Locks\Backend\File' not found in /home/coobom/public_html/webdav/server.php on line 50
+[11-Feb-2015 23:19:33 UTC] PHP Fatal error:  Class 'MyServer\HomeCollection' not found in /home/coobom/public_html/webdav/server2.php on line 45
+[11-Feb-2015 23:22:33 UTC] PHP Fatal error:  Class 'MyServer\HomeCollection' not found in /home/coobom/public_html/webdav/server2.php on line 45
+[11-Feb-2015 23:24:49 UTC] PHP Fatal error:  Class 'MyServer\HomeCollection' not found in /home/coobom/public_html/webdav/server2.php on line 45
+[11-Feb-2015 23:24:58 UTC] PHP Fatal error:  Class 'MyServer\HomeCollection' not found in /home/coobom/public_html/webdav/server2.php on line 45
+[12-Feb-2015 04:19:59 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined variable: principalBackend' in /home/coobom/public_html/webdav/basicserver.php:49
+Stack trace:
+#0 /home/coobom/public_html/webdav/basicserver.php(49): exception_error_handler(8, 'Undefined varia...', '/home/coobom/pu...', 49, Array)
+#1 {main}
+  thrown in /home/coobom/public_html/webdav/basicserver.php on line 49
+[12-Feb-2015 04:20:01 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined variable: principalBackend' in /home/coobom/public_html/webdav/basicserver.php:49
+Stack trace:
+#0 /home/coobom/public_html/webdav/basicserver.php(49): exception_error_handler(8, 'Undefined varia...', '/home/coobom/pu...', 49, Array)
+#1 {main}
+  thrown in /home/coobom/public_html/webdav/basicserver.php on line 49
+[12-Feb-2015 04:20:58 UTC] PHP Fatal error:  Class 'MyServer\HomeCollection' not found in /home/coobom/public_html/webdav/basicserver.php on line 61
+[12-Feb-2015 04:26:50 UTC] PHP Fatal error:  Class 'MyServer\HomeCollection' not found in /home/coobom/public_html/webdav/basicserver.php on line 61
+[12-Feb-2015 04:36:04 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined variable: path' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:19
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(19): exception_error_handler(8, 'Undefined varia...', '/home/coobom/pu...', 19, Array)
+#1 /home/coobom/public_html/webdav/lib/Sabre/DAV/ObjectTree.php(117): MyServer\HomeCollection->getChildren()
+#2 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(1478): Sabre\DAV\ObjectTree->getChildren('home')
+#3 /home/coobom/public_html/webdav/lib/Sabre/DAV/Browser/Plugin.php(252): Sabre\DAV\Server->getPropertiesForPath('home', Array, 1)
+#4 /home/coobom/public_html/webdav/lib/Sabre/DAV/Browser/Plugin.php(137): Sabre\DAV\Browser\Plugin->generateDirectoryIndex('home')
+#5 [internal function]: Sabre\DAV\Browser\Plugin->httpGetInterceptor('GET', 'home')
+#6 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(433): call_user_func_array(Array, Array)
+#7 /home/coobom/public_html/webdav/lib/Sabre/DAV/Serve in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 19
+[12-Feb-2015 04:37:02 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Argument 1 passed to MyServer\HomeCollection::__construct() must be an instance of Sabre\DAV\Auth\Plugin, none given, called in /home/coobom/public_html/webdav/basicserver.php on line 63 and defined' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:16
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(16): exception_error_handler(4096, 'Argument 1 pass...', '/home/coobom/pu...', 16, Array)
+#1 /home/coobom/public_html/webdav/basicserver.php(63): MyServer\HomeCollection->__construct()
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 16
+[12-Feb-2015 04:37:04 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Argument 1 passed to MyServer\HomeCollection::__construct() must be an instance of Sabre\DAV\Auth\Plugin, none given, called in /home/coobom/public_html/webdav/basicserver.php on line 63 and defined' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:16
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(16): exception_error_handler(4096, 'Argument 1 pass...', '/home/coobom/pu...', 16, Array)
+#1 /home/coobom/public_html/webdav/basicserver.php(63): MyServer\HomeCollection->__construct()
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 16
+[12-Feb-2015 04:37:17 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Argument 1 passed to MyServer\HomeCollection::__construct() must be an instance of Sabre\DAV\Auth\Plugin, none given, called in /home/coobom/public_html/webdav/basicserver.php on line 63 and defined' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:16
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(16): exception_error_handler(4096, 'Argument 1 pass...', '/home/coobom/pu...', 16, Array)
+#1 /home/coobom/public_html/webdav/basicserver.php(63): MyServer\HomeCollection->__construct()
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 16
+[12-Feb-2015 04:39:41 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined variable: path' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:29
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(29): exception_error_handler(8, 'Undefined varia...', '/home/coobom/pu...', 29, Array)
+#1 /home/coobom/public_html/webdav/lib/Sabre/DAV/ObjectTree.php(117): MyServer\HomeCollection->getChildren()
+#2 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(1478): Sabre\DAV\ObjectTree->getChildren('home')
+#3 /home/coobom/public_html/webdav/lib/Sabre/DAV/Browser/Plugin.php(252): Sabre\DAV\Server->getPropertiesForPath('home', Array, 1)
+#4 /home/coobom/public_html/webdav/lib/Sabre/DAV/Browser/Plugin.php(137): Sabre\DAV\Browser\Plugin->generateDirectoryIndex('home')
+#5 [internal function]: Sabre\DAV\Browser\Plugin->httpGetInterceptor('GET', 'home')
+#6 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(433): call_user_func_array(Array, Array)
+#7 /home/coobom/public_html/webdav/lib/Sabre/DAV/Serve in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 29
+[12-Feb-2015 04:41:40 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'filemtime(): stat failed for public/clint' in /home/coobom/public_html/webdav/lib/Sabre/DAV/FS/Node.php:77
+Stack trace:
+#0 [internal function]: exception_error_handler(2, 'filemtime(): st...', '/home/coobom/pu...', 77, Array)
+#1 /home/coobom/public_html/webdav/lib/Sabre/DAV/FS/Node.php(77): filemtime('public/clint')
+#2 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(1551): Sabre\DAV\FS\Node->getLastModified()
+#3 /home/coobom/public_html/webdav/lib/Sabre/DAV/Browser/Plugin.php(252): Sabre\DAV\Server->getPropertiesForPath('home', Array, 1)
+#4 /home/coobom/public_html/webdav/lib/Sabre/DAV/Browser/Plugin.php(137): Sabre\DAV\Browser\Plugin->generateDirectoryIndex('home')
+#5 [internal function]: Sabre\DAV\Browser\Plugin->httpGetInterceptor('GET', 'home')
+#6 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(433): call_user_func_array(Array, Array)
+#7 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(455): Sabre\DAV\Server->broadcastEvent('befor in /home/coobom/public_html/webdav/lib/Sabre/DAV/FS/Node.php on line 77
+[13-Feb-2015 22:44:37 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'include(MyServer/PDOToken.php): failed to open stream: No such file or directory' in /home/coobom/public_html/webdav/serverToken.php:46
+Stack trace:
+#0 /home/coobom/public_html/webdav/serverToken.php(46): exception_error_handler(2, 'include(MyServe...', '/home/coobom/pu...', 46, Array)
+#1 /home/coobom/public_html/webdav/serverToken.php(46): include()
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/serverToken.php on line 46
+[13-Feb-2015 22:46:47 UTC] PHP Fatal error:  Class 'MyServer\AbstractToken' not found in /home/coobom/public_html/webdav/MyServer/PDOtoken.php on line 14
+[13-Feb-2015 22:48:13 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/coobom/public_html/webdav/MyServer/PDOtoken.php on line 3
+[13-Feb-2015 22:48:40 UTC] PHP Fatal error:  Interface 'MyServer\BackendInterface' not found in /home/coobom/public_html/webdav/MyServer/AbstractToken.php on line 19
+[13-Feb-2015 22:49:32 UTC] PHP Fatal error:  Class 'MyServer\AbstractToken' not found in /home/coobom/public_html/webdav/MyServer/PDOtoken.php on line 15
+[13-Feb-2015 22:51:57 UTC] PHP Fatal error:  Cannot redeclare class MyServer\HomeCollection in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 53
+[13-Feb-2015 22:53:35 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined index: coobtoken' in /home/coobom/public_html/webdav/MyServer/AbstractToken.php:52
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/AbstractToken.php(52): exception_error_handler(8, 'Undefined index...', '/home/coobom/pu...', 52, Array)
+#1 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php(108): Sabre\DAV\Auth\Backend\AbstractToken->authenticate(Object(Sabre\DAV\Server), 'SabreDAV')
+#2 [internal function]: Sabre\DAV\Auth\Plugin->beforeMethod('GET', '')
+#3 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(433): call_user_func_array(Array, Array)
+#4 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(455): Sabre\DAV\Server->broadcastEvent('beforeMethod', Array)
+#5 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(214): Sabre\DAV\Server->invokeMethod('GET', '')
+#6 /home/coobom/public_html/webdav/serverToken.php(73): Sabre\DAV\Server->exec()
+#7 {main}
+  thrown in /home/coobom/public_html/webdav/MyServer/AbstractToken.php on line 52
+[13-Feb-2015 23:09:28 UTC] PHP Fatal error:  Declaration of Sabre\DAV\Auth\Backend\AbstractToken::authenticate() must be compatible with Sabre\DAV\Auth\Backend\BackendInterface::authenticate(Sabre\DAV\Server $server, $realm) in /home/coobom/public_html/webdav/MyServer/AbstractToken.php on line 19
+[13-Feb-2015 23:14:02 UTC] PHP Fatal error:  Declaration of Sabre\DAV\Auth\Backend\AbstractToken::authenticate() must be compatible with Sabre\DAV\Auth\Backend\BackendInterface::authenticate(Sabre\DAV\Server $server, $realm) in /home/coobom/public_html/webdav/MyServer/AbstractToken.php on line 19
+[13-Feb-2015 23:14:04 UTC] PHP Fatal error:  Declaration of Sabre\DAV\Auth\Backend\AbstractToken::authenticate() must be compatible with Sabre\DAV\Auth\Backend\BackendInterface::authenticate(Sabre\DAV\Server $server, $realm) in /home/coobom/public_html/webdav/MyServer/AbstractToken.php on line 19
+[13-Feb-2015 23:16:01 UTC] PHP Fatal error:  Cannot redeclare class Sabre\DAV\Auth\Backend\BackendInterfaceToken in /home/coobom/public_html/webdav/MyServer/BackendInterfaceToken.php on line 13
+[13-Feb-2015 23:16:36 UTC] PHP Fatal error:  Interface 'Sabre\DAV\Auth\Backend\BackendInterfaceToken' not found in /home/coobom/public_html/webdav/MyServer/AbstractToken.php on line 21
+[13-Feb-2015 23:17:21 UTC] PHP Fatal error:  Cannot redeclare class Sabre\DAV\Auth\Backend\BackendInterfaceToken in /home/coobom/public_html/webdav/MyServer/BackendInterfaceToken.php on line 13
+[13-Feb-2015 23:18:36 UTC] PHP Fatal error:  Interface 'Sabre\DAV\Auth\Backend\BackendInterfaceToken' not found in /home/coobom/public_html/webdav/MyServer/AbstractToken.php on line 21
+[13-Feb-2015 23:19:02 UTC] PHP Fatal error:  Class 'DAV\Exception\NotAuthenticated' not found in /home/coobom/public_html/webdav/serverToken.php on line 54
+[13-Feb-2015 23:19:46 UTC] PHP Fatal error:  Uncaught exception 'Sabre\DAV\Exception\NotAuthenticated' with message 'token required' in /home/coobom/public_html/webdav/serverToken.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/coobom/public_html/webdav/serverToken.php on line 54
+[13-Feb-2015 23:20:51 UTC] PHP Fatal error:  Uncaught exception 'Sabre\DAV\Exception' with message 'token required' in /home/coobom/public_html/webdav/serverToken.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/coobom/public_html/webdav/serverToken.php on line 54
+[13-Feb-2015 23:21:23 UTC] PHP Fatal error:  Class 'Sabre\DAV\Auth\PluginToken' not found in /home/coobom/public_html/webdav/serverToken.php on line 63
+[13-Feb-2015 23:22:11 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Argument 1 passed to MyServer\HomeCollection::__construct() must be an instance of Sabre\DAV\Auth\Plugin, instance of Sabre\DAV\Auth\PluginToken given, called in /home/coobom/public_html/webdav/serverToken.php on line 69 and defined' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:16
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(16): exception_error_handler(4096, 'Argument 1 pass...', '/home/coobom/pu...', 16, Array)
+#1 /home/coobom/public_html/webdav/serverToken.php(69): MyServer\HomeCollection->__construct(Object(Sabre\DAV\Auth\PluginToken))
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 16
+[13-Feb-2015 23:23:13 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Argument 1 passed to MyServer\HomeCollection::__construct() must be an instance of Sabre\DAV\Auth\Plugin, instance of Sabre\DAV\Auth\PluginToken given, called in /home/coobom/public_html/webdav/serverToken.php on line 69 and defined' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:16
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(16): exception_error_handler(4096, 'Argument 1 pass...', '/home/coobom/pu...', 16, Array)
+#1 /home/coobom/public_html/webdav/serverToken.php(69): MyServer\HomeCollection->__construct(Object(Sabre\DAV\Auth\PluginToken))
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 16
+[13-Feb-2015 23:29:27 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Argument 1 passed to MyServer\HomeCollection::__construct() must be an instance of Sabre\DAV\Auth\PluginToken, instance of Sabre\DAV\Auth\Plugin given, called in /home/coobom/public_html/webdav/server.php on line 56 and defined' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:16
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(16): exception_error_handler(4096, 'Argument 1 pass...', '/home/coobom/pu...', 16, Array)
+#1 /home/coobom/public_html/webdav/server.php(56): MyServer\HomeCollection->__construct(Object(Sabre\DAV\Auth\Plugin))
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 16
+[13-Feb-2015 23:37:19 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Argument 1 passed to MyServer\HomeCollection::__construct() must be an instance of Sabre\DAV\Auth\PluginToken, instance of Sabre\DAV\Auth\Plugin given, called in /home/coobom/public_html/webdav/server.php on line 56 and defined' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:16
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(16): exception_error_handler(4096, 'Argument 1 pass...', '/home/coobom/pu...', 16, Array)
+#1 /home/coobom/public_html/webdav/server.php(56): MyServer\HomeCollection->__construct(Object(Sabre\DAV\Auth\Plugin))
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 16
+[13-Feb-2015 23:37:37 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Argument 1 passed to MyServer\HomeCollection::__construct() must be an instance of Sabre\DAV\Auth\PluginToken, instance of Sabre\DAV\Auth\Plugin given, called in /home/coobom/public_html/webdav/server.php on line 56 and defined' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:16
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(16): exception_error_handler(4096, 'Argument 1 pass...', '/home/coobom/pu...', 16, Array)
+#1 /home/coobom/public_html/webdav/server.php(56): MyServer\HomeCollection->__construct(Object(Sabre\DAV\Auth\Plugin))
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 16
+[14-Feb-2015 00:30:01 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Argument 1 passed to MyServer\HomeCollection::__construct() must be an instance of Sabre\DAV\Auth\PluginToken, instance of Sabre\DAV\Auth\Plugin given, called in /home/coobom/public_html/webdav/server.php on line 56 and defined' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:16
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(16): exception_error_handler(4096, 'Argument 1 pass...', '/home/coobom/pu...', 16, Array)
+#1 /home/coobom/public_html/webdav/server.php(56): MyServer\HomeCollection->__construct(Object(Sabre\DAV\Auth\Plugin))
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 16
+[14-Feb-2015 00:55:04 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Argument 1 passed to MyServer\HomeCollection::__construct() must be an instance of MyServer\AuthPluginToken, instance of Sabre\DAV\Auth\Plugin given, called in /home/coobom/public_html/webdav/server.php on line 56 and defined' in /home/coobom/public_html/webdav/MyServer/HomeCollection.php:16
+Stack trace:
+#0 /home/coobom/public_html/webdav/MyServer/HomeCollection.php(16): exception_error_handler(4096, 'Argument 1 pass...', '/home/coobom/pu...', 16, Array)
+#1 /home/coobom/public_html/webdav/server.php(56): MyServer\HomeCollection->__construct(Object(Sabre\DAV\Auth\Plugin))
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/MyServer/HomeCollection.php on line 16
+[14-Feb-2015 03:51:23 UTC] PHP Fatal error:  Class 'DAV\FS\Directory' not found in /home/coobom/public_html/webdav/public_server.php on line 51
+[18-Feb-2015 20:00:54 UTC] PHP Fatal error:  Class 'Sabre\DAV\Auth\Backend\BasicCallBack' not found in /home/coobom/public_html/webdav/public_server.php on line 52
+[18-Feb-2015 20:01:41 UTC] PHP Fatal error:  Class 'Sabre\DAV\Auth\Backend\BasicCallBack' not found in /home/coobom/public_html/webdav/public_server.php on line 52
+[18-Feb-2015 20:04:00 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Missing argument 2 for Sabre\DAV\Auth\Plugin::__construct(), called in /home/coobom/public_html/webdav/public_server.php on line 60 and defined' in /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php:48
+Stack trace:
+#0 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php(48): exception_error_handler(2, 'Missing argumen...', '/home/coobom/pu...', 48, Array)
+#1 /home/coobom/public_html/webdav/public_server.php(60): Sabre\DAV\Auth\Plugin->__construct(Object(Sabre\DAV\Auth\Backend\BasicCallBack))
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php on line 48
+[18-Feb-2015 20:06:22 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Missing argument 2 for Sabre\DAV\Auth\Plugin::__construct(), called in /home/coobom/public_html/webdav/public_server.php on line 60 and defined' in /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php:48
+Stack trace:
+#0 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php(48): exception_error_handler(2, 'Missing argumen...', '/home/coobom/pu...', 48, Array)
+#1 /home/coobom/public_html/webdav/public_server.php(60): Sabre\DAV\Auth\Plugin->__construct(Object(Sabre\DAV\Auth\Backend\BasicCallBack))
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php on line 48
+[18-Feb-2015 20:06:24 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Missing argument 2 for Sabre\DAV\Auth\Plugin::__construct(), called in /home/coobom/public_html/webdav/public_server.php on line 60 and defined' in /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php:48
+Stack trace:
+#0 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php(48): exception_error_handler(2, 'Missing argumen...', '/home/coobom/pu...', 48, Array)
+#1 /home/coobom/public_html/webdav/public_server.php(60): Sabre\DAV\Auth\Plugin->__construct(Object(Sabre\DAV\Auth\Backend\BasicCallBack))
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php on line 48
+[18-Feb-2015 20:06:33 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Missing argument 2 for Sabre\DAV\Auth\Plugin::__construct(), called in /home/coobom/public_html/webdav/public_server.php on line 60 and defined' in /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php:48
+Stack trace:
+#0 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php(48): exception_error_handler(2, 'Missing argumen...', '/home/coobom/pu...', 48, Array)
+#1 /home/coobom/public_html/webdav/public_server.php(60): Sabre\DAV\Auth\Plugin->__construct(Object(Sabre\DAV\Auth\Backend\BasicCallBack))
+#2 {main}
+  thrown in /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php on line 48
+[25-Feb-2015 17:09:03 UTC] PHP Fatal error:  Class 'MyServer\HomeCollection' not found in /home/coobom/public_html/webdav/public_server_new.php on line 71
+[25-Feb-2015 17:10:25 UTC] PHP Fatal error:  Using $this when not in object context in /home/coobom/public_html/webdav/public_server_new.php on line 54
+[25-Feb-2015 17:19:05 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: pdo' in /home/coobom/public_html/webdav/public_server_new.php:56
+Stack trace:
+#0 /home/coobom/public_html/webdav/public_server_new.php(56): exception_error_handler(8, 'Undefined varia...', '/home/coobom/pu...', 56, Array)
+#1 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Backend/BasicCallBack.php(47): {closure}('clint', 'a4239b0b5906312...')
+#2 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Backend/AbstractBasic.php(77): Sabre\DAV\Auth\Backend\BasicCallBack->validateUserPass('clint', 'a4239b0b5906312...')
+#3 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php(108): Sabre\DAV\Auth\Backend\AbstractBasic->authenticate(Object(Sabre\DAV\Server), 'SabreDAV')
+#4 [internal function]: Sabre\DAV\Auth\Plugin->beforeMethod('GET', '')
+#5 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(433): call_user_func_array(Array, Array)
+#6 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(455): Sabre\DAV\Server->broadcastEvent('bef in /home/coobom/public_html/webdav/public_server_new.php on line 56
+[25-Feb-2015 17:19:05 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/coobom/public_html/webdav/public_server_new.php on line 56
+[25-Feb-2015 17:23:08 UTC] PHP Fatal error:  Declaration of Sabre\DAV\Auth\Backend\BasicCallBack::validateUserPass() must be compatible with Sabre\DAV\Auth\Backend\AbstractBasic::validateUserPass($username, $password) in /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Backend/BasicCallBack.php on line 16
+[25-Feb-2015 17:26:41 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: pdo' in /home/coobom/public_html/webdav/public_server_new.php:56
+Stack trace:
+#0 /home/coobom/public_html/webdav/public_server_new.php(56): exception_error_handler(8, 'Undefined varia...', '/home/coobom/pu...', 56, Array)
+#1 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Backend/BasicCallBack.php(47): {closure}('clint', 'a4239b0b5906312...')
+#2 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Backend/AbstractBasic.php(77): Sabre\DAV\Auth\Backend\BasicCallBack->validateUserPass('clint', 'a4239b0b5906312...')
+#3 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php(108): Sabre\DAV\Auth\Backend\AbstractBasic->authenticate(Object(Sabre\DAV\Server), 'SabreDAV')
+#4 [internal function]: Sabre\DAV\Auth\Plugin->beforeMethod('GET', '')
+#5 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(433): call_user_func_array(Array, Array)
+#6 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(455): Sabre\DAV\Server->broadcastEvent('bef in /home/coobom/public_html/webdav/public_server_new.php on line 56
+[25-Feb-2015 17:26:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/coobom/public_html/webdav/public_server_new.php on line 56
+[25-Feb-2015 17:28:47 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined variable: realm' in /home/coobom/public_html/webdav/public_server_new.php:62
+Stack trace:
+#0 /home/coobom/public_html/webdav/public_server_new.php(62): exception_error_handler(8, 'Undefined varia...', '/home/coobom/pu...', 62, Array)
+#1 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Backend/BasicCallBack.php(47): {closure}('clint', 'a4239b0b5906312...')
+#2 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Backend/AbstractBasic.php(77): Sabre\DAV\Auth\Backend\BasicCallBack->validateUserPass('clint', 'a4239b0b5906312...')
+#3 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php(108): Sabre\DAV\Auth\Backend\AbstractBasic->authenticate(Object(Sabre\DAV\Server), 'SabreDAV')
+#4 [internal function]: Sabre\DAV\Auth\Plugin->beforeMethod('GET', '')
+#5 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(433): call_user_func_array(Array, Array)
+#6 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(455): Sabre\DAV\Server->broadcastEvent('b in /home/coobom/public_html/webdav/public_server_new.php on line 62
+[25-Feb-2015 19:31:12 UTC] PHP Fatal error:  Class 'DAV\FS\Directory' not found in /home/coobom/public_html/webdav/public_server_new.php on line 79
+[25-Feb-2015 19:31:56 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'scandir(home): failed to open dir: No such file or directory' in /home/coobom/public_html/webdav/lib/Sabre/DAV/FS/Directory.php:95
+Stack trace:
+#0 [internal function]: exception_error_handler(2, 'scandir(home): ...', '/home/coobom/pu...', 95, Array)
+#1 /home/coobom/public_html/webdav/lib/Sabre/DAV/FS/Directory.php(95): scandir('home')
+#2 /home/coobom/public_html/webdav/lib/Sabre/DAV/ObjectTree.php(117): Sabre\DAV\FS\Directory->getChildren()
+#3 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(1478): Sabre\DAV\ObjectTree->getChildren('home')
+#4 /home/coobom/public_html/webdav/lib/Sabre/DAV/Browser/Plugin.php(252): Sabre\DAV\Server->getPropertiesForPath('home', Array, 1)
+#5 /home/coobom/public_html/webdav/lib/Sabre/DAV/Browser/Plugin.php(137): Sabre\DAV\Browser\Plugin->generateDirectoryIndex('home')
+#6 [internal function]: Sabre\DAV\Browser\Plugin->httpGetInterceptor('GET', 'home')
+#7 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(433): call_use in /home/coobom/public_html/webdav/lib/Sabre/DAV/FS/Directory.php on line 95
+[09-Dec-2015 19:03:35 UTC] PHP Fatal error:  Uncaught exception 'ErrorException' with message 'Undefined offset: 1' in /home/coobom/public_html/webdav/lib/Sabre/HTTP/BasicAuth.php:29
+Stack trace:
+#0 /home/coobom/public_html/webdav/lib/Sabre/HTTP/BasicAuth.php(29): exception_error_handler(8, 'Undefined offse...', '/home/coobom/pu...', 29, Array)
+#1 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Backend/AbstractBasic.php(70): Sabre\HTTP\BasicAuth->getUserPass()
+#2 /home/coobom/public_html/webdav/lib/Sabre/DAV/Auth/Plugin.php(108): Sabre\DAV\Auth\Backend\AbstractBasic->authenticate(Object(Sabre\DAV\Server), 'SabreDAV')
+#3 [internal function]: Sabre\DAV\Auth\Plugin->beforeMethod('GET', 'public_server_n...')
+#4 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(433): call_user_func_array(Array, Array)
+#5 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(455): Sabre\DAV\Server->broadcastEvent('beforeMethod', Array)
+#6 /home/coobom/public_html/webdav/lib/Sabre/DAV/Server.php(214): Sabre\DAV\Server->invokeMethod('GET', 'public_server_n...')
+#7  in /home/coobom/public_html/webdav/lib/Sabre/HTTP/BasicAuth.php on line 29
